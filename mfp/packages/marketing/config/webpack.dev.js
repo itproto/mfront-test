@@ -21,7 +21,8 @@ const devConfig = {
             filename: 'remoteEntry.js',
             exposes: {
                 './MarketingBoot': './src/bootstrap'
-            }
+            },
+            shared: require('../package.json').dependencies
         })
     ]
 }
