@@ -19,6 +19,6 @@ const mountStandalone = (selector) => {
     }
 }
 
-mountStandalone('#dev-cart');
+mountStandalone('#dev-products');
 
 export { mount };
