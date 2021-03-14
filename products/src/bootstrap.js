@@ -17,5 +17,9 @@ if (process.env.NODE_ENV === 'development') {
     }
 }*/
 
+const mount = () => {
+    console.log(`Foo`)
+};
+
 console.log(`WOW`)
-// export { mount };
+export { mount };
