@@ -1,4 +1,4 @@
-/*
+
 import faker from 'faker';
 
 const products = Array.from(Array(10).keys()).map(() => {
@@ -6,20 +6,19 @@ const products = Array.from(Array(10).keys()).map(() => {
     return `<div>${name}</div>`
 });
 
-function mount(el) {
-    el.innerHTML = 'HELLO'; // products.join(`\n`);
+const mount = (el) => {
+    el.innerHTML = products.join(`\n`);
 };
 
-if (process.env.NODE_ENV === 'development') {
-    const localEl = document.querySelector('#dev-products');
-    if (localEl) {
-        mount(localEl);
+const mountStandalone = (selector) => {
+    if (process.env.NODE_ENV === 'development') {
+        const localEl = document.querySelector(selector);
+        if (localEl) {
+            mount(localEl);
+        }
     }
-}*/
+}
 
-const mount = () => {
-    console.log(`Foo`)
-};
+mountStandalone('#dev-cart');
 
-console.log(`WOW`)
 export { mount };
