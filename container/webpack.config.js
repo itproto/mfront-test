@@ -3,6 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MFP = require('webpack/lib/container/ModuleFederationPlugin');
 module.exports = {
     mode: "development",
+    devtool: 'source-map',
     devServer: {
         port: 8080
     },

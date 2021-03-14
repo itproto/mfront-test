@@ -94,3 +94,6 @@ https://github.com/billyjov/microfrontend-resources
 TOWATCH
 https://itnext.io/11-micro-frontends-frameworks-you-should-know-b66913b9cd20 !!!!FRAMEWORKS
 https://www.youtube.com/watch?v=vO8HgsfKHIU
+
+## IFRAME based
+https://www.toptal.com/front-end/micro-frontends-strengths-benefits
